@@ -1,17 +1,19 @@
 import { printAnimation } from "./animation";
+
+export const snacks = [
+    "Chips",
+    "Cookies",
+    "Popcorn",
+    "Chocolate",
+    "Pretzels",
+    "Cheese",
+    "Nuts"
+];
+
 export function printSnacks(): void {
     printAnimation("Snacks");
-    const snacks: string[] = [
-        "Chips", 
-        "Cookies", 
-        "Popcorn", 
-        "Chocolate", 
-        "Pretzels",
-        "Cheese",
-        "Nuts"];
+
     snacks.forEach((snack) => {
         console.log(snack);
     });
 }
-
-printSnacks();
