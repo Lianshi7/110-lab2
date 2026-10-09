@@ -2,7 +2,12 @@ import { printAnimation } from "./animation";
 
 export const snacks = [
     "Chips",
-    "Cookies"
+    "Cookies",
+    "Popcorn",
+    "Chocolate",
+    "Pretzels",
+    "Cheese",
+    "Nuts"
 ];
 
 export function printSnacks(): void {
