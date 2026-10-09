@@ -1,3 +1,5 @@
+// Music playlist for the Ultimate Party
+
 import { printAnimation } from "./animation";
 
 export const music = ["Pop", "Rock", "Jazz"];
